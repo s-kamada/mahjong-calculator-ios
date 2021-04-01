@@ -25,7 +25,9 @@ class ViewController: UIViewController {
               let fu = fuTextField.text,
               !fan.isEmpty, !fu.isEmpty else { return }
 
-        print("\(fan) fan \(fu) fu")
+        let score: Int = CalculateSupprt.score(fan: Int(fan) ?? 0, fu: Int(fu) ?? 0)
+
+        print("\(fan) fan \(fu) fu \n \(score)")
     }
 }
 
