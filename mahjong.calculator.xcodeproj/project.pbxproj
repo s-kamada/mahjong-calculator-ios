@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D90AA84126163609005359FA /* CalculateSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90AA84026163609005359FA /* CalculateSupport.swift */; };
+		D90AA84A26163A4C005359FA /* mahjong_calculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90AA84926163A4C005359FA /* mahjong_calculatorTests.swift */; };
 		D9D15D0626141FD50014A11A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D15D0526141FD50014A11A /* AppDelegate.swift */; };
 		D9D15D0A26141FD50014A11A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D15D0926141FD50014A11A /* ViewController.swift */; };
 		D9D15D0D26141FD50014A11A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9D15D0B26141FD50014A11A /* Main.storyboard */; };
@@ -15,8 +16,21 @@
 		D9D15D1226141FD60014A11A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9D15D1026141FD60014A11A /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		D90AA84C26163A4C005359FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9D15CFA26141FD50014A11A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9D15D0126141FD50014A11A;
+			remoteInfo = mahjong.calculator;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		D90AA84026163609005359FA /* CalculateSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateSupport.swift; sourceTree = "<group>"; };
+		D90AA84726163A4C005359FA /* mahjong.calculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mahjong.calculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D90AA84926163A4C005359FA /* mahjong_calculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mahjong_calculatorTests.swift; sourceTree = "<group>"; };
+		D90AA84B26163A4C005359FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D9D15D0226141FD50014A11A /* mahjong.calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mahjong.calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9D15D0526141FD50014A11A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D9D15D0926141FD50014A11A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -27,6 +41,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		D90AA84426163A4C005359FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D9D15CFF26141FD50014A11A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -37,10 +58,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D90AA84826163A4C005359FA /* mahjong.calculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				D90AA84926163A4C005359FA /* mahjong_calculatorTests.swift */,
+				D90AA84B26163A4C005359FA /* Info.plist */,
+			);
+			path = mahjong.calculatorTests;
+			sourceTree = "<group>";
+		};
 		D9D15CF926141FD50014A11A = {
 			isa = PBXGroup;
 			children = (
 				D9D15D0426141FD50014A11A /* mahjong.calculator */,
+				D90AA84826163A4C005359FA /* mahjong.calculatorTests */,
 				D9D15D0326141FD50014A11A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				D9D15D0226141FD50014A11A /* mahjong.calculator.app */,
+				D90AA84726163A4C005359FA /* mahjong.calculatorTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,6 +102,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		D90AA84626163A4C005359FA /* mahjong.calculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D90AA84E26163A4C005359FA /* Build configuration list for PBXNativeTarget "mahjong.calculatorTests" */;
+			buildPhases = (
+				D90AA84326163A4C005359FA /* Sources */,
+				D90AA84426163A4C005359FA /* Frameworks */,
+				D90AA84526163A4C005359FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D90AA84D26163A4C005359FA /* PBXTargetDependency */,
+			);
+			name = mahjong.calculatorTests;
+			productName = mahjong.calculatorTests;
+			productReference = D90AA84726163A4C005359FA /* mahjong.calculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		D9D15D0126141FD50014A11A /* mahjong.calculator */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D9D15D1626141FD60014A11A /* Build configuration list for PBXNativeTarget "mahjong.calculator" */;
@@ -96,6 +146,10 @@
 				LastSwiftUpdateCheck = 1230;
 				LastUpgradeCheck = 1230;
 				TargetAttributes = {
+					D90AA84626163A4C005359FA = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = D9D15D0126141FD50014A11A;
+					};
 					D9D15D0126141FD50014A11A = {
 						CreatedOnToolsVersion = 12.3;
 					};
@@ -115,11 +169,19 @@
 			projectRoot = "";
 			targets = (
 				D9D15D0126141FD50014A11A /* mahjong.calculator */,
+				D90AA84626163A4C005359FA /* mahjong.calculatorTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		D90AA84526163A4C005359FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D9D15D0026141FD50014A11A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -133,6 +195,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		D90AA84326163A4C005359FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D90AA84A26163A4C005359FA /* mahjong_calculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D9D15CFE26141FD50014A11A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -144,6 +214,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D90AA84D26163A4C005359FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9D15D0126141FD50014A11A /* mahjong.calculator */;
+			targetProxy = D90AA84C26163A4C005359FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		D9D15D0B26141FD50014A11A /* Main.storyboard */ = {
@@ -165,6 +243,46 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		D90AA84F26163A4C005359FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5GX5QFC8X3;
+				INFOPLIST_FILE = mahjong.calculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "skamada.mahjong-calculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mahjong.calculator.app/mahjong.calculator";
+			};
+			name = Debug;
+		};
+		D90AA85026163A4C005359FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5GX5QFC8X3;
+				INFOPLIST_FILE = mahjong.calculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "skamada.mahjong-calculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mahjong.calculator.app/mahjong.calculator";
+			};
+			name = Release;
+		};
 		D9D15D1426141FD60014A11A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -322,6 +440,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		D90AA84E26163A4C005359FA /* Build configuration list for PBXNativeTarget "mahjong.calculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D90AA84F26163A4C005359FA /* Debug */,
+				D90AA85026163A4C005359FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		D9D15CFD26141FD50014A11A /* Build configuration list for PBXProject "mahjong.calculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
