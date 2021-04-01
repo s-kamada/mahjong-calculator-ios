@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D90AA84126163609005359FA /* CalculateSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90AA84026163609005359FA /* CalculateSupport.swift */; };
 		D9D15D0626141FD50014A11A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D15D0526141FD50014A11A /* AppDelegate.swift */; };
 		D9D15D0A26141FD50014A11A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D15D0926141FD50014A11A /* ViewController.swift */; };
 		D9D15D0D26141FD50014A11A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9D15D0B26141FD50014A11A /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D90AA84026163609005359FA /* CalculateSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateSupport.swift; sourceTree = "<group>"; };
 		D9D15D0226141FD50014A11A /* mahjong.calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mahjong.calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9D15D0526141FD50014A11A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D9D15D0926141FD50014A11A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			children = (
 				D9D15D0526141FD50014A11A /* AppDelegate.swift */,
 				D9D15D0926141FD50014A11A /* ViewController.swift */,
+				D90AA84026163609005359FA /* CalculateSupport.swift */,
 				D9D15D0B26141FD50014A11A /* Main.storyboard */,
 				D9D15D0E26141FD60014A11A /* Assets.xcassets */,
 				D9D15D1026141FD60014A11A /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			files = (
 				D9D15D0A26141FD50014A11A /* ViewController.swift in Sources */,
 				D9D15D0626141FD50014A11A /* AppDelegate.swift in Sources */,
+				D90AA84126163609005359FA /* CalculateSupport.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
