@@ -16,6 +16,16 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         print("view did load")
+
+        calculateButton.addTarget(self, action: #selector(calc), for: .touchUpInside)
+    }
+
+    @objc func calc() {
+        guard let fan = fanTextField.text,
+              let fu = fuTextField.text,
+              !fan.isEmpty, !fu.isEmpty else { return }
+
+        print("\(fan) fan \(fu) fu")
     }
 }
 
