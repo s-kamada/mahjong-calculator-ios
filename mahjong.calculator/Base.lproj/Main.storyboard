@@ -45,7 +45,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="96v-Yj-D5W">
                                 <rect key="frame" x="104" y="393" width="62" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="calculate"/>
+                                <state key="normal" title="子の場合"/>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OzV-JL-cAp">
                                 <rect key="frame" x="261" y="398" width="76" height="21"/>
@@ -62,6 +62,7 @@
                         <outlet property="calculateButton" destination="96v-Yj-D5W" id="yoS-fe-lG1"/>
                         <outlet property="fanTextField" destination="gEV-g0-zPT" id="OuQ-Us-hNj"/>
                         <outlet property="fuTextField" destination="9AZ-x8-v9W" id="nlC-fH-am8"/>
+                        <outlet property="scoreLabel" destination="OzV-JL-cAp" id="eqI-WJ-VuK"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
