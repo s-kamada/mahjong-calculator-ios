@@ -13,6 +13,8 @@ final class CalculateSupprt {
      ４０(符) ✕ ４ ✕ ２の５(翻)乗 ＝　点数
      ４０ ✕ ４ ✕ ２ ✕ ２ ✕ ２ ✕ ２ ✕ ２ ＝　５,１２０
      */
+    // TODO: 点数計算の条件に関わるものをtypealiasとかでまとめる
+    // 親子・飜・符・ツモロン
     class func score(fan: Int, fu: Int) -> Int {
 
         let score: Double = Double(fu * 4 * Int(pow(Double(2), Double(fan + 2)))) / 100

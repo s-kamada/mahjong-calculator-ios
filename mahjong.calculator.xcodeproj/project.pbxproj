@@ -8,7 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		D90AA84126163609005359FA /* CalculateSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90AA84026163609005359FA /* CalculateSupport.swift */; };
-		D90AA84A26163A4C005359FA /* mahjong_calculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90AA84926163A4C005359FA /* mahjong_calculatorTests.swift */; };
+		D90AA84A26163A4C005359FA /* TestMahjong_calculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90AA84926163A4C005359FA /* TestMahjong_calculatorTests.swift */; };
+		D9870C2B2617333A004C6825 /* ScoreConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9870C2A2617333A004C6825 /* ScoreConstants.swift */; };
 		D9D15D0626141FD50014A11A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D15D0526141FD50014A11A /* AppDelegate.swift */; };
 		D9D15D0A26141FD50014A11A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D15D0926141FD50014A11A /* ViewController.swift */; };
 		D9D15D0D26141FD50014A11A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9D15D0B26141FD50014A11A /* Main.storyboard */; };
@@ -31,6 +32,7 @@
 		D90AA84726163A4C005359FA /* mahjong.calculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mahjong.calculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D90AA84926163A4C005359FA /* mahjong_calculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mahjong_calculatorTests.swift; sourceTree = "<group>"; };
 		D90AA84B26163A4C005359FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9870C2A2617333A004C6825 /* ScoreConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreConstants.swift; sourceTree = "<group>"; };
 		D9D15D0226141FD50014A11A /* mahjong.calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mahjong.calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9D15D0526141FD50014A11A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D9D15D0926141FD50014A11A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 				D9D15D0526141FD50014A11A /* AppDelegate.swift */,
 				D9D15D0926141FD50014A11A /* ViewController.swift */,
 				D90AA84026163609005359FA /* CalculateSupport.swift */,
+				D9870C2A2617333A004C6825 /* ScoreConstants.swift */,
 				D9D15D0B26141FD50014A11A /* Main.storyboard */,
 				D9D15D0E26141FD60014A11A /* Assets.xcassets */,
 				D9D15D1026141FD60014A11A /* LaunchScreen.storyboard */,
@@ -207,6 +210,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9870C2B2617333A004C6825 /* ScoreConstants.swift in Sources */,
 				D9D15D0A26141FD50014A11A /* ViewController.swift in Sources */,
 				D9D15D0626141FD50014A11A /* AppDelegate.swift in Sources */,
 				D90AA84126163609005359FA /* CalculateSupport.swift in Sources */,
