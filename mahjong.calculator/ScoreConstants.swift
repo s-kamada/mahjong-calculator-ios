@@ -8,9 +8,40 @@
 import Foundation
 
 public struct ScoreConstants {
-    static let mangan: Int = 8000
-    static let haneman: Int = 12000
-    static let baiman: Int = 16000
-    static let sanbaiman: Int = 24000
-    static let yakuman: Int = 32000
+
+    public var position: Position = .nonDealer
+
+    init(as position: Position) {
+        self.position = position
+    }
+
+    // 定数として扱いたいんだが...
+    public var mangan: Int {
+        return position.isDealer() ? 8000 : 12000
+    }
+
+    public var haneman: Int {
+        return position.isDealer() ? 12000 : 18000
+    }
+
+    public var baiman: Int {
+        return position.isDealer() ? 24000 : 16000
+    }
+
+    public var sanbaiman: Int {
+        return position.isDealer() ? 36000 : 24000
+    }
+
+    public var yakuman: Int {
+        position.isDealer() ? 48000 : 32000
+    }
+}
+
+public enum Position {
+    case dealer
+    case nonDealer
+
+    func isDealer() -> Bool {
+        return self == .dealer
+    }
 }
