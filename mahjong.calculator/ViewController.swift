@@ -12,6 +12,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var fanTextField: UITextField!
     @IBOutlet weak var fuTextField: UITextField!
     @IBOutlet weak var calculateButton: UIButton!
+    @IBOutlet weak var scoreLabel: UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,9 +26,10 @@ class ViewController: UIViewController {
               let fu = fuTextField.text,
               !fan.isEmpty, !fu.isEmpty else { return }
 
-        let score: Int = CalculateSupprt.score(fan: Int(fan) ?? 0, fu: Int(fu) ?? 0)
+        let score: Int = CalculateSupprt.score(fan: Int(fan) ?? 0, fu: Int(fu) ?? 0, position: .nonDealer)
 
         print("\(fan) fan \(fu) fu \n \(score)")
+        scoreLabel.text = String(score)
     }
 }
 
