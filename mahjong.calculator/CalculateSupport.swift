@@ -18,8 +18,12 @@ final class CalculateSupprt {
     static func score(fan: Int, fu: Int, position: Position) -> Int {
 
         switch fan {
-        case 1,2,3,4:
+        case 1,2,3:
             return calculatescore(fan: fan, fu: fu)
+
+        // TODO: 切り上げ満貫かどうかに対応
+        case 4:
+            return ScoreConstants(as: position).mangan
 
         case 5:
             return ScoreConstants(as: position).mangan
