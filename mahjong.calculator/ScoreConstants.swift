@@ -17,11 +17,11 @@ public struct ScoreConstants {
 
     // 定数として扱いたいんだが...
     public var mangan: Int {
-        return position.isDealer() ? 8000 : 12000
+        return position.isDealer() ? 12000 : 8000
     }
 
     public var haneman: Int {
-        return position.isDealer() ? 12000 : 18000
+        return position.isDealer() ? 18000 : 12000
     }
 
     public var baiman: Int {
