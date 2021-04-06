@@ -13,11 +13,24 @@ final class CalculateSupprt {
      ４０(符) ✕ ４ ✕ ２の５(翻)乗 ＝　点数
      ４０ ✕ ４ ✕ ２ ✕ ２ ✕ ２ ✕ ２ ✕ ２ ＝　５,１２０
      */
+
     struct WinningInfo {
         var fan: Int
         var fu: Int
         var position: Position
         var isTsumo: Bool
+    }
+
+    // 基本点と合計の収入を分けないとツモの場合表記しにくい
+    struct Score {
+        var kihonten: Int
+        var total: Int
+        var shiharai: Shiharai
+
+        struct Shiharai {
+            var dealer: Int
+            var players: Int
+        }
     }
     // TODO: 点数計算の条件に関わるものをtypealiasとかでまとめる
     // 親子・飜・符・ツモロン
