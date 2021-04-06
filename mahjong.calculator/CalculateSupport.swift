@@ -18,7 +18,12 @@ final class CalculateSupprt {
         var fan: Int
         var fu: Int
         var position: Position
-        var isTsumo: Bool
+        var winStyle: WinStyle
+    }
+
+    enum WinStyle {
+        case tsumo
+        case ron
     }
 
     // 基本点と合計の収入を分けないとツモの場合表記しにくい
@@ -32,9 +37,10 @@ final class CalculateSupprt {
             var players: Int
         }
     }
+
     // TODO: 点数計算の条件に関わるものをtypealiasとかでまとめる
     // 親子・飜・符・ツモロン
-    static func score(fan: Int, fu: Int, position: Position) -> Int {
+    static func score(fan: Int, fu: Int, position: Position, winStyle: WinStyle) -> Int {
 
         switch fan {
         case 1,2,3:
